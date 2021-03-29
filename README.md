@@ -41,10 +41,10 @@
 <h4> İos </h3>
 
 ### Giriş Yapılması
-<img src="kupon/giris.png"  height="400"  >
+<img src="iosres/giris.png"  height="400"  >
 
 ### Kayıt Yapılması
-<img src="kupon/kayıt.png"  height="400"  >
+<img src="iosres/kayıt.png"  height="400"  >
 
 
 ### Profil 
