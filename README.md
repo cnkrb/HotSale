@@ -36,3 +36,46 @@
 
 ### Ürünler Sol Geçiş Animasyonu
 <img src="kupon/solgecis.jpg"  height="400"  >
+
+
+<h4> İos </h3>
+
+### Giriş Yapılması
+<img src="kupon/giris.png"  height="400"  >
+
+### Kayıt Yapılması
+<img src="kupon/kayıt.png"  height="400"  >
+
+
+### Profil 
+<img src="iosres/profi.png"  height="400"  >
+
+### Ürünler
+<img src="iosres/urunler.png"  height="400"  >
+
+### Aradıklarım
+<img src="iosres/aradıklarım.png"  height="400"  >
+
+### Beğendiklerim
+<img src="iosres/begenilerim.png"  height="400"  >
+
+### Satın Alınanlar
+<img src="iosres/satınalınanlar.png"  height="400"  >
+
+### Kategorilerim
+<img src="iosres/kategorilerim.png"  height="400"  >
+
+
+### Ürünler Sağ Geçiş Animasyonu
+<img src="iosres/saggecis.png"  height="400"  >
+
+
+### Ürünler Sol Geçiş Animasyonu
+<img src="iosres/solgecis.png"  height="400"  >
+
+
+
+
+
+
+
