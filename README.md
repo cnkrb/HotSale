@@ -22,7 +22,7 @@
 <img src="kupon/aradıklarım.jpg"  height="400"  >
 
 ### Beğendiklerim
-<img src="kupon/begenilerim.jpg"  height="400"  >
+<img src="kupon/begenilenler.jpg"  height="400"  >
 
 ### Satın Alınanlar
 <img src="kupon/satınalınanlar.jpg"  height="400"  >
