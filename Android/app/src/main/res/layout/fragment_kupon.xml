@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="bottom"
+    android:background="#E5E5E5"
+    android:layout_height="350dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="KUPONLAR"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_close_24"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:id="@+id/exit"
+            android:layout_height="wrap_content"
+            app:tint="@color/black" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerView"
+        tools:listitem="@layout/item_coupon"
+        android:layout_height="wrap_content"/>
+
+
+   <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        app:cardCornerRadius="15dp"
+       android:id="@+id/CardError"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Aktif Kupon Bulunamamaktadır."
+                    android:textColor="@color/black"
+                    android:id="@+id/error"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:layout_height="wrap_content"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:layout_weight="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Çiçeksepeti 50/30"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:lines="1"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Bu üründe kullanacağınız kupon ile 1600TL alabilirsiniz."
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:lines="2"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="SATIN AL"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/txt_border_red"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:layout_weight="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Çiçeksepeti 50/30"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:lines="1"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Bu üründe kullanacağınız kupon ile 1600TL alabilirsiniz."
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:lines="2"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="KOPYALA"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:id="@+id/copy"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/txt_border_red"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>-->
+
+
+</LinearLayout>

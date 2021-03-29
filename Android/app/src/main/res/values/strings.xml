@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KuponUygulaması</string>
+    <string name="zipla">ZIPLA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">epostal123@gmail.com</string>
+    <string name="mail">Email</string>
+    <string name="password">* * * * *</string>
+    <string name="passwordt">Password</string>
+    <string name="ifremi_unuttum">Şifremi Unuttum?</string>
+    <string name="git">Git</string>
+    <string name="ye_giri_i">Üye Girişi</string>
+
+    <string name="facebook_app_id">425632601857901</string>
+    <string name="fb_login_protocol_scheme">fb425632601857901</string>
+
+</resources>

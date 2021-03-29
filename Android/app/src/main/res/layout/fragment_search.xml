@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/searchFragment"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SearchFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="x adet aranacak kelime hakkkınız kaldı"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:id="@+id/count"
+        android:textColor="@color/text"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerView"
+        tools:listitem="@layout/item_search"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Cenki asd asd asd asda "
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:id="@+id/de"
+            android:lines="2"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/txt_border"
+            android:layout_height="40dp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Cenki asasdasddaasdas"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:id="@+id/de2"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/txt_border"
+            android:layout_height="40dp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="Cenki asdada "
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/de3"
+            android:padding="5dp"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/txt_border"
+            android:layout_height="40dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

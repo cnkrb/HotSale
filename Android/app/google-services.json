@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668181585625",
+    "project_id": "realkupon-50f87",
+    "storage_bucket": "realkupon-50f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668181585625:android:8d7596b0e581e0261968c8",
+        "android_client_info": {
+          "package_name": "com.cenkkaraboa.kuponuygulamas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668181585625-ihbg9rh22r59dgmklufra2jtculgvdu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cenkkaraboa.kuponuygulamas",
+            "certificate_hash": "80be985c97566a8e9f943df88f8a5aa8a7c646ed"
+          }
+        },
+        {
+          "client_id": "668181585625-rkjjas9hbq6rmd4plp01sqoj3vbjtrbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwWOwN80doQCCBwRVGKbDqWsEOmewHuV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668181585625-rkjjas9hbq6rmd4plp01sqoj3vbjtrbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

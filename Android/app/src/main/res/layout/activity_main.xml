@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:id="@+id/home"
+    android:background="@color/intro"
+    android:layout_height="match_parent"
+    tools:context=".activitites.MainActivity">
+
+    <com.cenkkaraboa.kuponuygulamas.helper.BaseStatusBar
+        android:id="@+id/base_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_color"/>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@drawable/down_boarder"
+        android:textSize="17sp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:paddingBottom="10dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_baseline_dehaze_24"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/profil"
+                    android:gravity="center"
+                    android:layout_height="?attr/actionBarSize"
+                    app:tint="@color/black" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="ARADIKLARIM"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:id="@+id/txt_head"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="35dp"
+                    android:lines="2"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_height="?attr/actionBarSize"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_baseline_arrow_forward_24"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/next"
+                    android:gravity="center"
+                    android:layout_height="?attr/actionBarSize"
+                    app:tint="@color/black" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/back"
+                    android:gravity="center"
+                    android:layout_height="?attr/actionBarSize"
+                    app:tint="@color/black" />
+
+            </RelativeLayout>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/search"
+                android:layout_height="45dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="Aranacak kelime yazın"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:inputType="text"
+                    android:layout_gravity="center"
+                    android:id="@+id/searchText"
+                    android:imeOptions="actionDone"
+                    android:background="@drawable/edtx_border"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_baseline_search_24"
+                    android:layout_height="40dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:id="@+id/activity_frame"
+    android:layout_height="match_parent">
+
+</FrameLayout>
+
+</LinearLayout>
