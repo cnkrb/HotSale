@@ -1,41 +1,44 @@
 # Kupon Uygulaması 
 
-<h3> Çevredeki marketlerin indirimininden sizleri haber ederek hem indirimi kaçırmamanızı hem de uygulamayı kullanarak aldığınız ürünleri onaylamanız takdirde puan kazanmayı amaçlamaktadır. Puan ile ürünler satın alınabilir.  (Bitmek üzere) </h3>
+<h3> Çevredeki marketlerin indirimininden sizleri haber ederek hem indirimi kaçırmamanızı hem de uygulamayı kullanarak aldığınız ürünleri onaylamanız takdirde puan kazanmayı amaçlamaktadır. Puan ile ürünler satın alınabilir.  (Mağaza da yayınlanmak üzere) </h3>
 
 
 <h4> Android </h3>
 
 ### Giriş Yapılması
-<img src="kupon/giris.jpg"  height="400"  >
+<img src="android/giris.jpg"  height="400"  >
 
 ### Kayıt Yapılması
-<img src="kupon/kayıt.jpg"  height="400"  >
-
+<img src="android/kayıt.jpg"  height="400"  >
 
 ### Profil 
-<img src="kupon/profil.jpg"  height="400"  >
+<img src="android/profil.jpg"  height="400"  >
 
 ### Ürünler
-<img src="kupon/urunler.jpg"  height="400"  >
+<img src="android/urunler.jpg"  height="400"  >
+
+### Ürünler Sayfasının Sonu
+<img src="android/urundahafazlasi.jpg"  height="400"  >
 
 ### Aradıklarım
-<img src="kupon/aradıklarım.jpg"  height="400"  >
+<img src="android/aradiklarim.jpg"  height="400"  >
+
+### Aradıklarım Kelime Silme
+<img src="android/aradiklarimkelimesilme.jpg"  height="400"  >
 
 ### Beğendiklerim
-<img src="kupon/begenilenler.jpg"  height="400"  >
+<img src="android/begendiklerim.jpg"  height="400"  >
 
 ### Satın Alınanlar
-<img src="kupon/satınalınanlar.jpg"  height="400"  >
+<img src="android/satinalinanlar.jpg"  height="400"  >
 
-### Ürün Sayfası - Kupon
-<img src="kupon/kupon.jpg"  height="400"  >
 
 ### Ürünler Sağ Geçiş Animasyonu
-<img src="kupon/saggecis.jpg"  height="400"  >
+<img src="android/saggecis.jpg"  height="400"  >
 
 
 ### Ürünler Sol Geçiş Animasyonu
-<img src="kupon/solgecis.jpg"  height="400"  >
+<img src="android/solgecis.jpg"  height="400"  >
 
 
 <h4> İos </h3>
