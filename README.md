@@ -9,7 +9,7 @@
 <img src="android/giris.jpg"  height="400"  >
 
 ### Kayıt Yapılması
-<img src="android/kayıt.jpg"  height="400"  >
+<img src="android/kayit.jpg"  height="400"  >
 
 ### Profil 
 <img src="android/profil.jpg"  height="400"  >
