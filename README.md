@@ -2,6 +2,11 @@
 
 <h3> Çevredeki marketlerin indirimininden sizleri haber ederek hem indirimi kaçırmamanızı hem de uygulamayı kullanarak aldığınız ürünleri onaylamanız takdirde puan kazanmayı amaçlamaktadır. Puan ile ürünler satın alınabilir.  (Mağaza da yayınlanmak üzere) </h3>
 
+<h3> Android Mağaza </h3>
+<h3> https://play.google.com/store/apps/details?id=com.sicak.firsatlar </h3>
+
+<h3> İos Mağaza </h3>
+<h3> https://apps.apple.com/us/app/hot-sale-s%C4%B1cak-f%C4%B1rsatlar/id1566814776 </h3>
 
 <h4> Android </h3>
 
