@@ -1,6 +1,6 @@
 # Kupon Uygulaması 
 
-<h3> Çevredeki marketlerin indirimininden sizleri haber ederek hem indirimi kaçırmamanızı hem de uygulamayı kullanarak aldığınız ürünleri onaylamanız takdirde puan kazanmayı amaçlamaktadır. Puan ile ürünler satın alınabilir.  (Mağaza da yayınlanmak üzere) </h3>
+<h3> Çevredeki marketlerin indirimininden sizleri haber ederek hem indirimi kaçırmamanızı hem de uygulamayı kullanarak aldığınız ürünleri onaylamanız takdirde puan kazanmayı amaçlamaktadır. Puan ile ürünler satın alınabilir. </h3>
 
 <h3> Android Mağaza </h3>
 <h3> https://play.google.com/store/apps/details?id=com.sicak.firsatlar </h3>
