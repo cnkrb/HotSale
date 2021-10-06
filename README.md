@@ -51,10 +51,6 @@
 ### Giriş Yapılması
 <img src="iosres/giris.png"  height="400"  >
 
-### Kayıt Yapılması
-<img src="iosres/kayıt.png"  height="400"  >
-
-
 ### Profil 
 <img src="iosres/profi.png"  height="400"  >
 
