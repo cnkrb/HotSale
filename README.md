@@ -1,4 +1,4 @@
-# Kupon Uygulaması 
+# Sıcak Fırsatlar  
 
 <h3> Çevredeki marketlerin indirimininden sizleri haber ederek hem indirimi kaçırmamanızı hem de uygulamayı kullanarak aldığınız ürünleri onaylamanız takdirde puan kazanmayı amaçlamaktadır. Puan ile ürünler satın alınabilir. </h3>
 
